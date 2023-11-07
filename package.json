@@ -1,0 +1,33 @@
+{
+    "name": "polaris-exercise-00",
+    "version": "1.0.0",
+    "description": "Exercise 00",
+    "main": "index.ts",
+    "scripts": {
+        "test": "nyc ts-mocha -p tsconfig.json src/tests/*.spec.ts"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Siotics/polaris-exercise-00.git"
+    },
+    "author": "Cydnirn",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Siotics/polaris-exercise-00/issues"
+    },
+    "imports": {
+        "#utils/*": "./src/utils/*.ts",
+        "#class/*": "./src/class/*.ts"
+    },
+    "homepage": "https://github.com/Siotics/polaris-exercise-00#readme",
+    "devDependencies": {
+        "@types/chai": "^4.3.9",
+        "@types/mocha": "^10.0.4",
+        "chai": "^4.3.10",
+        "mocha": "^10.2.0",
+        "nyc": "^15.1.0",
+        "ts-mocha": "^10.0.0",
+        "ts-node": "^10.9.1",
+        "typescript": "^5.2.2"
+    }
+}
