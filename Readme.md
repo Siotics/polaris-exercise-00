@@ -10,6 +10,8 @@ Before you start, make sure you fulfilled the following exercise prequisites:
 1. Installed [Node.js](https://nodejs.org/en/download)
 2. (Optional) Installed ts-node globally (via npm i -g ts-node)
 
+If all prequisites are fulfilled, execute ```npm i``` on project root directory
+
 ## Exercise Description
 
 Execute ```npm run test``` to see all project task
